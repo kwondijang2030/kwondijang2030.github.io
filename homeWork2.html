@@ -1,27 +1,31 @@
-<!DOCTYPEhtml>  <!-- homeWork2.html --> 
-<html lang="ko"> 
+<!doctype html> <!-- homeWork2.html --> 
+ <html lang="ko"> 
  <head> 
-   <meta charset="utf-8"/> 
-   <meta name="viewport" content="width=device-width,initial-scale=1"/> 
-   <title>HTML5테이블 테스트 실습</title> 
-   <style> table, tr, th, td {border:1px solid red; border-collapse:collapse;}.subject1{background-color:skyblue;}.subject2{background-color:magenta;}.subject3{background-color:yellow;}.subject5{background-color:lightgreen;}
-   </style> 
- </head> 
-  <body style="color:blue;"> 
-   <table> 
-   <tr><th>시간</th><th>월요일</th><th>화요일</th><th>수요일</th><th>목요일</th><th>금요일</th> 
-   <tr><td>1교시</td><td> </td><td class="subject1">오토마타 </td> <td></td> <td class="subject2">캡스톤디자인</td> <td></td></tr> 
-   <tr><td>2교시</td><td> </td><td class="subject1">오토마타 </td> <td> </td> <td class="subject2">캡스톤디자인</td> <td></td></tr> 
-   <tr><td>3교시</td><td> </td><td ></td> <td> </td> <td class="subject1">오토마타</td> <td></td> 
-   <tr><td>4교시</td><td class="subject5">멀티미디어시스템<td></td> <td></td> <td></td> <td></td> <td></td> </tr> 
-   <tr><td>5교시</td><td> <td class="subject3">네트워크프로그래밍></td><td></td> <td></td> <td class="subject5">멀티미디어시스템 </td> <td> </td> </tr> 
-    <tr><td>6교시</td><td class="subject3">네트워크프로그래밍</td> <td class="subject3">네트워크프로그래밍</td> <td class="subject5">멀티미디어시스템></td> <td></td> <td></td></tr> 
-   <tr><td>7교시</td><td> </td><td> </td><td class="subject4">인터넷응용</td> <td class="subject5">캠퍼스멘토링</td> <td></td> <td></td> <td></td></tr> 
-   <tr><td>8교시</td><td> </td><td> <td class="subject4">인터넷응용</td> <td  class="subject5">캠퍼스멘토링 </td><td> </td></tr> 
-   <tr><td>9교시</td><td class="subject2>캡스톤디자인 </td><td> </td><td> </td><td> </td><td> </td><td> </td><td class="subject4">인터넷응용 </td></tr> 
-  </table> 
-  </body>  
- </html> 
-
-
- 
+ <meta charset="utf-8"/> 
+ <meta name="viewpor" content="width=device-width, initial-scale=1"/> 
+ <style> 
+ table , thead , tbody , tfoot , tr , th ,td{ border:2px solid silver; border-collapse: collapse;text-align: center;} 
+ .subject1 {background-color:red;} .subject2 {background-color:blue} 
+ .subject3 {background-color:gold} .subject4 {background-color:purple} 
+ .subject5 {background-color:pink} .subject6 {background-color:darkblue} 
+th,td {width:100px;} 
+ </style> 
+<tilte>HTML5 개인 시간표 과제</tilte> 
+</head> 
+<body> 
+<table> 
+<caption>&lt;개인 시간표&gt;</caption> 
+<thead><th>시간</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th><th>일</th></thead> 
+<tbody> 
+<tr><td>1교시</td><td>-</td><td class="subject5">오토마타</td><td>-</td><td class="subject4">캡스톤디자인</td><td>-</td><td>-</td><td>-</td></tr> 
+<tr><td>2교시</td><td>-</td><td class="subject5">오토마타</td><td>-</td><td class="subject4">캡스톤디자인</td><td>-</td></tr> 
+<tr><td>3교시</td><td>-</td><td>-</td><td>-</td><td class="subject5">오토마타 </td><td>-</td><td>-</td><td>-</td></tr> 
+<tr><td>4교시</td><td class="subject1">멀티미디어시스템</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr> 
+<tr><td>5교시</td><td>-</td><td class="subject2">네트워크프로그래밍</td><td>-</td><td class="subject1">멀티미디어시스템</td><td>-</td><td>-</td><td>=</td></tr> 
+<tr><td>6교시</td><td class="subject2">네트워크프로그래밍</td><td class="subject2">네트워크프로그래밍</td><td>-</td><td>-</td><td class="subject6">멘토링</td><td>-</td><td>-</td></tr> 
+<tr><td>7교시</td><td class="subject2">네트워크프로그래밍</td><td>-</td><td class="subject3">인터넷응용</td><td class="subject6">멘토링</td><td>-</td><td>-</td><td>-</td></tr> 
+<tr><td>8교시</td><td>-</td><td>-</td><td class="subject3">인터넷응용</td><td>-</td><td>-</td><td>-</td><td>-</td></tr> 
+<tr><td>9교시</td><td class="subject4">캡스톤디자인</td><td>-</td><td>-</td><td>-</td><td class="subject3">인터넷응용</td><td>-</td><td>-</td></tr> 
+</tbody>
+ </table>
+  </body></html> 
